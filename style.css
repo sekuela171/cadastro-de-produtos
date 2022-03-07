@@ -1,0 +1,82 @@
+/* comentário no CSS */
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fafbfc;
+}
+
+header{
+    background-color: blueviolet;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+main{
+    padding: 30px 50px;
+}
+
+.cartao{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: top 15px;
+    border-radius: 5px;
+}
+
+.lineinput{
+    display: grid;
+    margin-top: 10px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: 0;
+    margin-bottom: 20px;
+}
+
+button{
+    margin-top: 15px;
+    border: 0px;
+    padding: 10px;
+    outline: 0;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all ease 0.3s;
+
+}
+
+button:hover{
+    background-color: rgb(56, 15, 95);
+}
+
+.conteudo{
+    margin-top: 50px;
+}
+
+.center{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+table th{
+    background-color: rgb(218, 204, 204);
+    padding: 1px 5px;
+    text-align: left;
+}
+
+table td img{
+    width: 22px;
+}
